@@ -1,0 +1,30 @@
+{
+  "name": "payment-gateway",
+  "version": "1.0.0",
+  "description": "Payment Gateway for basic transactions",
+  "main": "./src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammadFazaluddin/payment-gateway-ts.git"
+  },
+  "keywords": [
+    "Payment-Gateway",
+    "Typescript",
+    "Backend",
+    "Development"
+  ],
+  "author": "Mohammad Fazaluddin Shaikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammadFazaluddin/payment-gateway-ts/issues"
+  },
+  "homepage": "https://github.com/MohammadFazaluddin/payment-gateway-ts#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.37.3"
+  }
+}
